@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicción del Clima</title>
+</head>
+<body>
+    <h1>Predicción del Clima de Mañana</h1>
+    <form action="/predict" method="post">
+        <label for="windspeed">Velocidad del viento (km/h):</label>
+        <input type="text" id="windspeed" name="windspeed" required><br>
+        <label for="humidity">Humedad (%):</label>
+        <input type="text" id="humidity" name="humidity" required><br>
+        <label for="visibility">Visibilidad (km):</label>
+        <input type="text" id="visibility" name="visibility" required><br>
+        <input type="submit" value="Predecir">
+    </form>
+</body>
+</html>
